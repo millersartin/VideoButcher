@@ -12,13 +12,13 @@ Video Clipper is a Python script that allows you to automatically segment videos
 
 1. **Download or Identify Video**: Start by either downloading a video from YouTube using its URL or identifying a video file on your hard drive that you'd like to segment.
    
-2. **Specify Clip Duration**: Determine the duration of each clip segment. For instance, specifying a 3-minute duration will segment a 9-minute video into three 3-minute clips.
+2. **Specify Clip Duration**: Determine the duration of each clip segment in seconds. For instance, specifying a 3-minute duration will segment a 9-minute video into three 3-minute clips.
 
 3. **Run the Script**: Execute the script with the necessary parameters to initiate the video segmentation process.
 
 ```python
 # Example usage
-python video_clipper.py --source "path/to/local/video or YouTube URL" --clip-duration 3
+python video_clipper.py --source "path/to/local/video or YouTube URL" --clip-duration 180
 ```
 ## Installation
 
@@ -29,7 +29,7 @@ Ensure you have Python 3.x installed on your system. You can download it from th
    Clone the repository to your local machine using the following command:
 
    ```bash
-   git clone https://github.com/your_username/your_project_name.git
+   git clone https://github.com/millersartin/VideoButcher.git
 
 2. **Install Dependencies**
 
