@@ -34,5 +34,6 @@ Ensure you have Python 3.x installed on your system. You can download it from th
 2. **Install Dependencies**
 
    ```bash
-   pip install -r requirements.txt
+   pip install yt-dlp
+   pip install python-ffmpeg
    ```
